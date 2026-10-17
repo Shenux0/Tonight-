@@ -1,0 +1,22 @@
+[
+  { "id": 1, "title": "Toy Story", "year": 1995, "genre": "Animation", "runtime": 81, "synopsis": "A pull-string cowboy feels pushed aside when a shiny space ranger becomes his owner's new favourite toy." },
+  { "id": 2, "title": "Jurassic Park", "year": 1993, "genre": "Adventure", "runtime": 127, "synopsis": "A theme park of cloned dinosaurs goes badly wrong on its very first preview weekend." },
+  { "id": 3, "title": "The Matrix", "year": 1999, "genre": "Sci-Fi", "runtime": 136, "synopsis": "An office worker learns that the everyday world around him is a computer simulation." },
+  { "id": 4, "title": "Finding Nemo", "year": 2003, "genre": "Animation", "runtime": 100, "synopsis": "A nervous clownfish crosses the whole ocean to bring his missing son home." },
+  { "id": 5, "title": "The Dark Knight", "year": 2008, "genre": "Action", "runtime": 152, "synopsis": "A masked vigilante faces a chaotic criminal who wants to prove that anyone can be corrupted." },
+  { "id": 6, "title": "Back to the Future", "year": 1985, "genre": "Sci-Fi", "runtime": 116, "synopsis": "A teenager slips thirty years into the past and must make sure his parents still fall in love." },
+  { "id": 7, "title": "Spirited Away", "year": 2001, "genre": "Animation", "runtime": 125, "synopsis": "A young girl takes a job at a bathhouse for spirits to rescue her transformed parents." },
+  { "id": 8, "title": "The Shawshank Redemption", "year": 1994, "genre": "Drama", "runtime": 142, "synopsis": "Two prisoners build a lasting friendship across decades behind the same prison walls." },
+  { "id": 9, "title": "Inception", "year": 2010, "genre": "Sci-Fi", "runtime": 148, "synopsis": "A thief who steals secrets from dreams is hired to plant an idea instead." },
+  { "id": 10, "title": "Paddington 2", "year": 2017, "genre": "Family", "runtime": 103, "synopsis": "A polite bear is wrongly jailed and sets out to clear his name and find a stolen book." },
+  { "id": 11, "title": "Mad Max: Fury Road", "year": 2015, "genre": "Action", "runtime": 120, "synopsis": "A desert drifter joins a rebel driver on a non-stop chase across a wasteland." },
+  { "id": 12, "title": "Get Out", "year": 2017, "genre": "Thriller", "runtime": 104, "synopsis": "A weekend visit to meet his girlfriend's family slowly turns into something sinister." },
+  { "id": 13, "title": "The Grand Budapest Hotel", "year": 2014, "genre": "Comedy", "runtime": 99, "synopsis": "A fussy hotel concierge and his loyal lobby boy are pulled into a caper over a priceless painting." },
+  { "id": 14, "title": "Up", "year": 2009, "genre": "Animation", "runtime": 96, "synopsis": "An elderly widower ties thousands of balloons to his house and floats off on a long-promised trip." },
+  { "id": 15, "title": "Groundhog Day", "year": 1993, "genre": "Comedy", "runtime": 101, "synopsis": "A grumpy weatherman is stuck living the same small-town day over and over again." },
+  { "id": 16, "title": "Interstellar", "year": 2014, "genre": "Sci-Fi", "runtime": 169, "synopsis": "Astronauts travel through a wormhole to find a new home for a dying Earth." },
+  { "id": 17, "title": "The Princess Bride", "year": 1987, "genre": "Family", "runtime": 98, "synopsis": "A grandfather reads a story of true love, sword fights and giants to his sick grandson." },
+  { "id": 18, "title": "Knives Out", "year": 2019, "genre": "Thriller", "runtime": 130, "synopsis": "A detective untangles a wealthy family's lies after the head of the family is found dead." },
+  { "id": 19, "title": "Coco", "year": 2017, "genre": "Animation", "runtime": 105, "synopsis": "A boy who dreams of music ends up in the colourful Land of the Dead on a festival night." },
+  { "id": 20, "title": "Forrest Gump", "year": 1994, "genre": "Drama", "runtime": 142, "synopsis": "A kind-hearted man stumbles through decades of history while never forgetting his first love." }
+]
