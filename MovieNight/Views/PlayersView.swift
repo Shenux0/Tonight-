@@ -22,12 +22,16 @@ struct PlayersView: View {
                 .buttonStyle(PillButtonStyle())
                 .accessibilityIdentifier("historyButton")
             }
+            // The focus engine only looks roughly straight up, and History sits far to the
+            // right of the centred chips. A focus section makes this whole full-width row
+            // catch an "up" press and hand focus to the History button.
+            .focusSection()
 
             Spacer(minLength: 0)
 
             VStack(spacing: 12) {
                 Text("Tonight?")
-                    .font(.largeTitle.bold())
+                    .font(Theme.titleFont(size: 140))
                 Text("Who's watching?")
                     .font(.title)
                     .foregroundStyle(.secondary)

@@ -3,6 +3,7 @@
 // the same calm Apple TV look and a design change only touches this file.
 
 import SwiftUI
+import UIKit   // only for UIFont, to check the bundled font loaded
 
 enum Theme {
     static let accent = Color.indigo
@@ -26,6 +27,20 @@ enum Theme {
     static func gradient(for movie: Movie) -> LinearGradient {
         let colors = posterGradients[movie.id % posterGradients.count]
         return LinearGradient(colors: colors, startPoint: .topLeading, endPoint: .bottomTrailing)
+    }
+
+    // The playful app-name font (Luckiest Guy, bundled in Resources/Fonts).
+    // If it ever fails to load, fall back to a heavy rounded system font instead
+    // of SwiftUI's silent fallback to a plain regular weight.
+    // MAC-CHECK: the font only loads if Info > "Fonts provided by application" (UIAppFonts)
+    // lists LuckiestGuy-Regular.ttf and the file is in Copy Bundle Resources.
+    static let titleFontName = "LuckiestGuy-Regular"
+
+    static func titleFont(size: CGFloat) -> Font {
+        if UIFont(name: titleFontName, size: size) != nil {
+            return .custom(titleFontName, fixedSize: size)
+        }
+        return .system(size: size, weight: .black, design: .rounded)
     }
 
     // The modulo keeps any index safe, even one outside the palette.
